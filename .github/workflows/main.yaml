@@ -13,7 +13,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        dc: [ dmd-2.088.1, dmd-2.089.1, dmd-2.090.1, dmd-2.091.1, dmd-2.092.1 ]
+        dc: [ dmd-2.089.1, dmd-2.090.1, dmd-2.091.0, dmd-2.092.1, ldc-1.20.1, ldc-1.21.0 ]
         os: [ windows-2019 ]
 #        os: [ ubuntu-18.04, macOS-10.15, windows-2019 ]
 #        dc: [ ldc-master, dmd-master, ldc-latest, dmd-latest, ldc-1.17.0, dmd-2.088.1 ]
